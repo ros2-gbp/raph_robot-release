@@ -1,0 +1,15 @@
+ros-jazzy-raph-robot (1.0.0-1bookworm) bookworm; urgency=high
+
+  * Change all names to Raph (#4 <https://github.com/Rapha-Rover/rapha_robot/issues/4>)
+  * Contributors: Jan Hernas
+
+ -- Fictionlab <support@fictionlab.pl>  Mon, 08 Dec 2025 00:00:00 -0000
+
+ros-jazzy-raph-robot (0.0.1-1bookworm) bookworm; urgency=high
+
+  * Initial version
+  * Contributors: Błażej Sowa
+
+ -- Fictionlab <support@fictionlab.pl>  Mon, 22 Jul 2024 00:00:00 -0000
+
+
