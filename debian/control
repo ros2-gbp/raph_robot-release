@@ -1,0 +1,12 @@
+Source: ros-jazzy-raph-fw
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-copyright <!nocheck>, ros-jazzy-ament-cmake-lint-cmake <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-raph-fw
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-rich, python3-zeroconf, ros-jazzy-ament-index-python, ros-jazzy-ros-workspace
+Description: Binary releases of the RaphCore firmware and related utilities
