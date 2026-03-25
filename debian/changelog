@@ -1,0 +1,27 @@
+ros-jazzy-raph-bringup (1.1.0-1bookworm) bookworm; urgency=high
+
+  * feat: Add ruff and pre-commit config (#9 <https://github.com/Rapha-Rover/rapha_robot/issues/9>)
+  * feat: Add custom OAK wrapper (#8 <https://github.com/Rapha-Rover/rapha_robot/issues/8>)
+  * Contributors: Aleksander Szymański, Błażej Sowa
+
+ -- Fictionlab <support@fictionlab.pl>  Wed, 25 Mar 2026 00:00:00 -0000
+
+ros-jazzy-raph-bringup (1.0.0-1bookworm) bookworm; urgency=high
+
+  * feat: Add box filter to rplidar scans (#6 <https://github.com/Rapha-Rover/rapha_robot/issues/6>)
+  * feat: Improve Oak configuration (#5 <https://github.com/Rapha-Rover/rapha_robot/issues/5>)
+  * Add rosbridge and web_video_server to raph_bringup
+  * Update raph_system script, add get_os_version service
+  * Change all names to Raph (#4 <https://github.com/Rapha-Rover/rapha_robot/issues/4>)
+  * Contributors: Błażej Sowa, Jan Hernas
+
+ -- Fictionlab <support@fictionlab.pl>  Mon, 08 Dec 2025 00:00:00 -0000
+
+ros-jazzy-raph-bringup (0.0.1-1bookworm) bookworm; urgency=high
+
+  * Initial version
+  * Contributors: Błażej Sowa
+
+ -- Fictionlab <support@fictionlab.pl>  Mon, 22 Jul 2024 00:00:00 -0000
+
+
