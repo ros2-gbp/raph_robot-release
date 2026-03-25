@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>raph_robot</name>
+  <name>raph_fw</name>
   <version>1.1.0</version>
-  <description>Packages for Raph Rover running on the robot.</description>
+  <description>Binary releases of the RaphCore firmware and related utilities</description>
 
   <maintainer email="support@fictionlab.pl">Fictionlab</maintainer>
 
@@ -13,15 +13,15 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <exec_depend>raph</exec_depend>
-  <exec_depend>raph_bringup</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3-rich</exec_depend>
+  <exec_depend>python3-zeroconf</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>
-  <test_depend>ament_cmake_xmllint</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
-    <architecture_independent/>
   </export>
 </package>
