@@ -1,0 +1,23 @@
+<launch version="0.1.1">
+
+  <arg name="tf_frame_prefix"
+    default=""
+    description="The prefix added to each published TF frame id" />
+
+  <node namespace="rplidar"
+    name="rplidar_node"
+    pkg="rplidar_ros"
+    exec="rplidar_node">
+    <param from="$(find-pkg-share raph_bringup)/config/rplidar.yaml" />
+    <param name="frame_id" value="$(var tf_frame_prefix)laser_frame" />
+  </node>
+
+  <node namespace="rplidar"
+    name="box_filter"
+    pkg="laser_filters"
+    exec="scan_to_scan_filter_chain">
+    <param from="$(find-pkg-share raph_bringup)/config/box_filter.yaml" />
+    <remap from="scan_in" to="scan" />
+  </node>
+
+</launch>
