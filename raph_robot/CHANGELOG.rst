@@ -2,6 +2,9 @@
 Changelog for package raph_robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.2 (2026-06-12)
+------------------
+
 1.1.1 (2026-03-25)
 ------------------
 * Fix package dependencies (`#11 <https://github.com/Rapha-Rover/rapha_robot/issues/11>`_)
