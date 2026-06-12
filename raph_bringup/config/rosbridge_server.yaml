@@ -1,4 +1,0 @@
-/**:
-  ros__parameters:
-    unregister_timeout: 60.0
-    call_services_in_new_thread: true
